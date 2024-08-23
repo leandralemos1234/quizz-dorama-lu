@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz de Dorama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="perguntas">
+        <div id="0" class="visivel">
+            <img src="./imagens/capa.jpeg">
+            <h1>Quizz</h1>
+            <p>Este é um Quizz sobre <i>Doramas</i>, mas respostas possiveis serão Verdadeiro ou Falso.</p>
+            <div>
+                <input type="button" class="r0" value="Vamos começar!">
+            </div>
+        </div>
+        <div id="1" class="invisivel">
+            <img src="./imagens/p1.jpeg">
+            <h1>Pergunta #1</h1>
+            <p>A maioria dos Doramas são produzidos na Coreia do Sul.</p>
+            <div>
+                <input type="button" class="r1" value="Verdadeiro">
+                <input type="button" class="r1" value="Falso">
+            </div>
+        </div>
+        <div id="2"  class="invisivel">
+            <img src="./imagens/p2.jpeg">
+            <h1>Pergunta #2</h1>
+            <p>Doramas japoneses são conhecidos como "j-dramas".</p>
+            <div>
+                <input type="button" class="r2" value="Verdadeiro">
+                <input type="button" class="r2" value="Falso">
+            </div>
+        </div>
+        <div id="3"  class="invisivel">
+            <img src="./imagens/p3.jpeg">
+            <h1>Pergunta #3</h1>
+            <p>Todos os Doramas tem exatamente 20 episódios.</p>
+            <div>
+                <input type="button" class="r3" value="Verdadeiro">
+                <input type="button" class="r3" value="Falso">
+            </div>
+        </div>
+        <div id="4" class="invisivel">
+            <img src="./imagens/p4.jpeg">
+            <h1>Pergunta #4</h1>
+            <p>Os Doramas raramente abordam temas como amizade ou família.</p>
+            <div>
+                <input type="button" class="r4" value="Verdadeiro">
+                <input type="button" class="r4" value="Falso">
+            </div>
+        </div>
+        <div id="5" class="invisivel">
+            <img src="./imagens/p5.jpeg">
+            <h1>Pergunta #5</h1>
+            <p>"Crash Landing On You" é um Dorama que envolve uma história de amor entre uma mulher sul-coreana e um soldado norte-coreano.</p>
+            <div>
+                <input type="button" class="r5" value="Verdadeiro">
+                <input type="button" class="r5" value="Falso">
+            </div>
+        </div>
+        <div id="resultado" class="invisivel">
+            <h1>Resultado</h1>
+            <p>Você completou o quizz sobre Doramas, veja a sua pontuação abaixo:</p>
+            <h3 id="respostas_corretas">Respostas Corretas: <br></h3>
+            <h3 id="respostas_incorretas">Respostas Incorretas: <br></h3>
+            <br>
+            <input type="button" onclick="navigation.reload();" value="Tentar de novo">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
